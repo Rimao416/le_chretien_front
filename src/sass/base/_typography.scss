@@ -1,0 +1,47 @@
+.label {
+  color: $black-font-color;
+  font-size: $default-font-size-2;
+}
+.sub--label {
+  font-size: $default-font-size-3;
+  color: $secondary-font-color;
+}
+
+// BUTTON STYLE
+.AuthButton {
+  margin-top: $normal-margin;
+  width: 100%;
+  height: 100%;
+  padding: 0.8rem;
+  font-size: $default-font-size-2;
+  outline: none;
+  border: none;
+  background-color: $main-color !important;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+  // &:active{
+  //   transform:scale(1.3);
+  // }
+  &--disabled {
+    background-color: $disabled-button !important;
+  }
+  svg {
+    position: relative !important;
+    width: 5% !important;
+    height: 5% !important;
+    overflow: hidden !important;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.Mainbutton {
+  background-color: $main-color;
+  color: $white-color;
+  padding: 10px;
+  border-radius: 120px;
+  outline: none;
+  border: none;
+}
+

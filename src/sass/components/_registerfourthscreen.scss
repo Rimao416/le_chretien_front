@@ -1,0 +1,38 @@
+.auth {
+  &__password {
+    &--label {
+      display: block;
+    }
+    &--input {
+      outline: none;
+      border: none;
+      font-family: $font-family;
+      color: $black-font-color;
+      background: $white-color;
+
+      width: 100%;
+    }
+    &--wrapper {
+      @include input(.5rem, .8rem);
+      
+      position: relative;
+    }
+    &--check {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 5px;
+    }
+  }
+  &__verification {
+    
+    text-align: left;
+    &--wrapper {
+      color: $secondary-font-color;
+      font-size: $default-font-size-3;
+      &--verified {
+        color: $green-color;
+      }
+    }
+  }
+}

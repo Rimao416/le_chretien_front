@@ -1,0 +1,47 @@
+.auth {
+  &__second {
+    position: relative;
+  }
+
+  &__birth {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    &--wrapper {
+      width: 30%;
+      position: relative;
+      
+    }
+    
+  }
+  &__contact{
+    &__flex-container{
+      display: flex;
+      justify-content: space-between;
+      label:nth-child(2){
+        color: $secondary-font-color;
+      }
+    }
+  }
+
+  &__input{
+    @include input(.5rem, .8rem);
+    width: 100%;
+  }
+
+}
+
+
+
+
+.react-tel-input {
+  width: 100%;
+  input {
+    font-size: $default-font-size-2;
+    margin-top: $small-margin !important;
+    position: relative !important;
+    width: 100% !important;
+    border: 1px solid $border-color !important;
+    // border: 1px solid red !important;
+  }
+}

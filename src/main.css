@@ -1,0 +1,103 @@
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-padding-bottom-small {
+  padding-bottom: 1.5rem !important; }
+
+.auth__button {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  font-family: "Lexend", "sans-serif";
+  color: #333;
+  background-color: white;
+  border: 1px solid rgba(204, 204, 204, 0.9);
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.auth__icon--apple, .auth__icon--user {
+  color: black; }
+
+.auth__icon--google {
+  color: #db4a39; }
+
+.auth__icon--facebook {
+  color: #4267B2; }
+
+.auth__second {
+  position: relative; }
+
+.auth__birth {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative; }
+
+.auth__form {
+  background-color: red; }
+
+.datepicker {
+  position: relative;
+  outline: none;
+  border: none;
+  font-family: "Lexend", "sans-serif";
+  color: #333;
+  background-color: white;
+  border: 1px solid rgba(204, 204, 204, 0.9);
+  cursor: pointer;
+  width: 30%;
+  overflow: hidden; }
+  .datepicker__eye--open, .datepicker__eye--close {
+    position: absolute;
+    right: 0; }
+
+.auth {
+  background-image: url("https://www.ebooksearchnow.com/find-ebooks-edge/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  .auth::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .auth__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 40px;
+    border-radius: 10px; }
+  .auth__group {
+    margin-top: 30px; }
+  .auth__message {
+    margin-top: 15px;
+    font-size: 13px; }
+  .auth__icon {
+    font-size: 20px;
+    position: relative; }
+    .auth__icon svg {
+      display: none; }
+  .auth__privacy-link, .auth__privacy-link:link, .auth__privacy-link:visited, .auth__already-member-link, .auth__already-member-link:link, .auth__already-member-link:visited {
+    color: #0d1216;
+    font-weight: bold;
+    text-decoration: none; }

@@ -1,0 +1,29 @@
+.auth {
+  &__wrapper--message{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__code {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    &--input {
+      width: 14%;
+      height: 5.1rem;
+      text-align: center;
+      font-size: large;
+      outline: none;
+      border: none;
+      border: 1px solid $border-color;
+      &:focus,
+      &:active {
+        border-color: $main-color;
+      }
+    }
+    .has-value {
+      border-color: $main-color;
+    }
+  }
+}
